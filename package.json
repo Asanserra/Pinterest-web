@@ -1,0 +1,12 @@
+{
+  "name": "the-house-verdict",
+  "version": "1.0.0",
+  "description": "The House Verdict - Amazon affiliate home decor website",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/ && cp 3.png dist/",
+    "start": "npx serve dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
