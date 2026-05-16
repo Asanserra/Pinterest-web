@@ -1,9 +1,9 @@
 {
   "name": "the-house-verdict",
   "version": "1.0.0",
-  "description": "The House Verdict - Amazon affiliate home decor website",
+  "description": "The House Verdict \u2014 Honest Amazon home decor picks & reviews. Curated products, styling guides, and honest affiliate recommendations for beautiful spaces.",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/ && cp 3.png dist/",
+    "build": "mkdir -p dist && cp index.html dist/ && cp 3.png dist/ && cp privacy.html dist/",
     "start": "npx serve dist"
   },
   "engines": {
